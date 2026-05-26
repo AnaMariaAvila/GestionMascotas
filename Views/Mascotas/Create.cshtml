@@ -1,0 +1,44 @@
+@model GestionMascotas.Models.Mascota
+
+<h1>Crear Mascota</h1>
+
+<form asp-action="Create">
+
+    <div>
+        <label>Id</label>
+        <input asp-for="Id" />
+    </div>
+
+    <br>
+
+    <div>
+        <label>Nombre</label>
+        <input asp-for="Nombre" />
+    </div>
+
+    <br>
+
+    <div>
+        <label>Raza</label>
+        <input asp-for="Raza" />
+    </div>
+
+    <br>
+
+    <div>
+        <label>Fecha Nacimiento</label>
+        <input asp-for="FechaNacimiento" type="date" />
+    </div>
+
+    <br>
+
+    <div>
+        <label>Vacunado</label>
+        <input asp-for="Vacunado" type="checkbox" />
+    </div>
+
+    <br>
+
+    <button type="submit">Guardar</button>
+
+</form>
