@@ -1,26 +1,37 @@
 @model List<GestionMascotas.Models.Mascota>
 
-<h1>Lista de Mascotas</h1>
+<h1 class="mb-3">Lista de Mascotas</h1>
 
-<a asp-action="Create">Nueva Mascota</a>
+<a class="btn btn-primary mb-3" asp-action="Create">+ Nueva Mascota</a>
 
-<table border="1">
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Raza</th>
+            <th>Vacunado</th>
+        </tr>
+    </thead>
 
-    <tr>
-        <th>Id</th>
-        <th>Nombre</th>
-        <th>Raza</th>
-        <th>Vacunado</th>
-    </tr>
-
+    <tbody>
     @foreach (var mascota in Model)
     {
         <tr>
             <td>@mascota.Id</td>
             <td>@mascota.Nombre</td>
             <td>@mascota.Raza</td>
-            <td>@mascota.Vacunado</td>
+            <td>
+                @if (mascota.Vacunado)
+                {
+                    <span class="badge bg-success">Sí</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">No</span>
+                }
+            </td>
         </tr>
     }
-
+    </tbody>
 </table>

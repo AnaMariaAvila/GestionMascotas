@@ -6,13 +6,13 @@
 /Users/aniradiante/Downloads/GestionMascotas /bin/Debug/net8.0/GestionMascotas.runtimeconfig.json
 /Users/aniradiante/Downloads/GestionMascotas /bin/Debug/net8.0/GestionMascotas.dll
 /Users/aniradiante/Downloads/GestionMascotas /bin/Debug/net8.0/GestionMascotas.pdb
+/Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.csproj.AssemblyReference.cache
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.GeneratedMSBuildEditorConfig.editorconfig
-/Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.AssemblyInfoInputs.cache
-/Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.AssemblyInfo.cs
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.csproj.CoreCompileInputs.cache
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.MvcApplicationPartsAssemblyInfo.cache
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.RazorAssemblyInfo.cache
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.RazorAssemblyInfo.cs
+/Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.sourcelink.json
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/staticwebassets.build.json
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/staticwebassets.development.json
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/staticwebassets/msbuild.GestionMascotas.Microsoft.AspNetCore.StaticWebAssets.props
@@ -23,6 +23,7 @@
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/scopedcss/bundle/GestionMascotas.styles.css
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/scopedcss/projectbundle/GestionMascotas.bundle.scp.css
+/Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionM.8BA6CD1F.Up2Date
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.dll
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/refint/GestionMascotas.dll
 /Users/aniradiante/Downloads/GestionMascotas /obj/Debug/net8.0/GestionMascotas.pdb

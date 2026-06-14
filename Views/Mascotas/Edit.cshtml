@@ -1,0 +1,31 @@
+@model GestionMascotas.Models.Mascota
+
+<h1>Editar Mascota</h1>
+
+<form asp-action="Edit">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Nombre</label>
+        <input asp-for="Nombre" />
+    </div>
+
+    <div>
+        <label>Raza</label>
+        <input asp-for="Raza" />
+    </div>
+
+    <div>
+        <label>Fecha Nacimiento</label>
+        <input asp-for="FechaNacimiento" type="date" />
+    </div>
+
+    <div>
+        <label>Vacunado</label>
+        <input asp-for="Vacunado" type="checkbox" />
+    </div>
+
+    <button type="submit">Guardar cambios</button>
+
+</form>
